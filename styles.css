@@ -1,0 +1,54 @@
+div.card{
+    display:flex;
+    flex-direction: column;
+    margin-top:20px;
+    overflow: hidden;
+}
+
+/* Tab level is just visual */
+    
+    .card > .rectangle {
+        height: 5px;
+        width: 150%;
+        position: relative;
+        right: 50px;
+        bottom: 17px;
+        background: #a87ca0;
+    }
+
+    .card > h4.p-muted-heading {
+        font-size: 1rem;
+        color:black;
+        font-weight: 300;
+        padding-bottom: 0.5rem;
+    }
+    
+    .card > hr.dotted {
+        border-top: 1px dotted #CDCDCD;
+        position: relative;
+        background:none;
+        width: 105%;
+        right: 2.5%;
+    }
+    
+    /* Image placeholder */
+
+    .card > .p-card__title {
+        height: auto;
+        color: #477EA6;
+        font-weight: 300;
+        padding-top: 0.5rem;
+    }
+    
+    .p-card__title > a, .p-card__title > a:visited {
+        color: #477EA6;
+    }
+    
+    .card > i.p-card__content {
+        margin-top: auto;
+        padding-bottom: 1rem;
+        font-size: 1.2rem;
+    }
+    
+    /* Category placeholder */
+    
